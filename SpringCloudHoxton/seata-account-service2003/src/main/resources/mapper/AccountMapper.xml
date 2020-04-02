@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springcloud.alibaba.dao.AccountDao">
+    
+    <select id="query" resultType="com.springcloud.alibaba.domain.Account">
+        select * from t_account where user_id = #{userId}
+    </select>
+
+    <update id="update">
+        update t_account set used = used + #{money},residue = residue - #{money} where user_id = #{userId}
+    </update>
+
+</mapper>

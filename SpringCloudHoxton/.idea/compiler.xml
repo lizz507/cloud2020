@@ -11,6 +11,7 @@
         <module name="cloud-alibaba-provider-payment9001" />
         <module name="cloud-alibaba-provider-payment9002" />
         <module name="cloud-api-commons" />
+        <module name="cloud-config-nacos-client3377" />
         <module name="cloud-consumer-order80" />
         <module name="cloud-consumerconsul-order80" />
         <module name="cloud-eureka-server7001" />
@@ -20,6 +21,9 @@
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8004" />
         <module name="cloud-provider-payment8006" />
+        <module name="seata-account-service2003" />
+        <module name="seata-order-service2001" />
+        <module name="seata-storage-service2002" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
