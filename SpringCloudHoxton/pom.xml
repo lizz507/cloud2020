@@ -25,6 +25,7 @@
         <module>seata-order-service2001</module>
         <module>seata-storage-service2002</module>
         <module>seata-account-service2003</module>
+        <module>java-demo-project</module>
     </modules>
     <packaging>pom</packaging>
   <!-- pom 表示这是一个父工程-->
@@ -85,6 +86,12 @@
         <groupId>com.alibaba</groupId>
         <artifactId>druid</artifactId>
         <version>${druid.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid-spring-boot-starter</artifactId>
+        <version>1.1.10</version>
       </dependency>
 
       <dependency>

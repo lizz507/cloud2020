@@ -21,6 +21,7 @@
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8004" />
         <module name="cloud-provider-payment8006" />
+        <module name="java-demo-project" />
         <module name="seata-account-service2003" />
         <module name="seata-order-service2001" />
         <module name="seata-storage-service2002" />
