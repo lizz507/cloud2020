@@ -1,4 +1,4 @@
-package com.demo;
+package com.demo.lock;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;

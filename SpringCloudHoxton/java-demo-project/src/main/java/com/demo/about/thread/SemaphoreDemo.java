@@ -1,4 +1,4 @@
-package com.demo;
+package com.demo.about.thread;
 
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
